@@ -112,4 +112,3 @@ myStartupHook = do
     spawn "xdotool mousemove 2890 560"
     spawn "feh --bg-scale /home/lain/Pictures/Wallpaper-Left /home/lain/Pictures/Wallpaper-Right"
     spawnOnce "picom -b --config ~/.config/picom/picom.conf"
-    spawnOnce "steam"
