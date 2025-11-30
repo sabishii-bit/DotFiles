@@ -90,8 +90,8 @@ myKeys =
     , ((myModMask, xK_t)                    , withFocused $ windows . W.sink)
     , ((myModMask, xK_f)                    , withFocused fullscreenFloat)
     -- Workspace navigation with arrow keys
-    , ((myModMask .|. shiftMask, xK_Right)  , nextWS)
-    , ((myModMask .|. shiftMask, xK_Left)   , prevWS)
+    , ((myModMask .|. shiftMask, xK_Right)  , spawn "/home/lain/.local/bin/workspace-next.sh")
+    , ((myModMask .|. shiftMask, xK_Left)   , spawn "/home/lain/.local/bin/workspace-prev.sh")
     ]
     -- Workspace switching: Mod + [1..9] to switch to workspace with animation
     ++ [((myModMask, k), spawn $ "/home/lain/.local/bin/workspace-switch.sh " ++ show n)
