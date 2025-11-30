@@ -1,6 +1,8 @@
 [stream-properties]
 Audio/Sink:node.name:auto_null={"mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000}
+Input/Audio:application.name:WEBRTC\sVoiceEngine={"channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000], "volume":1.000000}
 Output/Audio:application.name:Brave={"channelMap":["FL", "FR"], "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false}
-Output/Audio:application.name:Chromium={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false}
+Output/Audio:application.name:Chromium={"mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000}
 Output/Audio:application.name:Firefox={"volume":1.000000, "channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:application.name:WEBRTC\sVoiceEngine={"channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000}
 Output/Audio:media.role:Movie={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"], "mute":false}

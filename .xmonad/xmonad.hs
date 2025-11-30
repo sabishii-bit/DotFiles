@@ -89,9 +89,11 @@ myKeys =
     , ((myModMask .|. shiftMask, xK_Return) , spawn "thunar")
     , ((myModMask, xK_t)                    , withFocused $ windows . W.sink)
     , ((myModMask, xK_f)                    , withFocused fullscreenFloat)
-    -- Workspace navigation with arrow keys
-    , ((myModMask .|. shiftMask, xK_Right)  , spawn "/home/lain/.local/bin/workspace-next.sh")
-    , ((myModMask .|. shiftMask, xK_Left)   , spawn "/home/lain/.local/bin/workspace-prev.sh")
+    -- Workspace navigation with arrow keys (without shift = switch, with shift = move window)
+    , ((myModMask, xK_Right)                , spawn "/home/lain/.local/bin/workspace-next.sh")
+    , ((myModMask, xK_Left)                 , spawn "/home/lain/.local/bin/workspace-prev.sh")
+    , ((myModMask .|. shiftMask, xK_Right)  , spawn "/home/lain/.local/bin/workspace-next.sh move")
+    , ((myModMask .|. shiftMask, xK_Left)   , spawn "/home/lain/.local/bin/workspace-prev.sh move")
     ]
     -- Workspace switching: Mod + [1..9] to switch to workspace with animation
     ++ [((myModMask, k), spawn $ "/home/lain/.local/bin/workspace-switch.sh " ++ show n)
