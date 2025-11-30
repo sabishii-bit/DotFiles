@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/lain/Pictures/Wallpaper-Left/1624152287461.png' '/home/lain/Pictures/Wallpaper-Right/1616962598161.jpg' 

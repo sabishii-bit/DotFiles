@@ -1,0 +1,85 @@
+# Sensitive files
+.ssh/id_*
+.ssh/known_hosts
+.gnupg/
+.password-store/
+
+# History files
+*_history
+.bash_history
+.zsh_history
+.lesshst
+.python_history
+.node_repl_history
+
+# Cache directories
+.cache/
+*.log
+.local/share/
+.npm/
+.cargo/
+.rustup/
+.go/
+.gem/
+.claude/
+.claude*
+.steampid
+.steampath
+.pulse-cookie
+
+# Browser data (large and private)
+.mozilla/
+.config/google-chrome/
+.config/chromium/
+.config/BraveSoftware/
+
+# Application caches
+.config/*/Cache/
+.config/*/GPUCache/
+.config/Code/
+.config/Code - OSS/
+.config/discord/
+.config/Slack/
+
+# VSCode/Code-OSS extensions and binaries
+.vscode/
+.vscode-oss/
+.viminfo
+
+# XMonad compiled files
+.xmonad/xmonad-x86_64-linux
+.xmonad/xmonad.errors
+.xmonad/xmonad.hi
+.xmonad/xmonad.o
+.xmonad/build-x86_64-linux/
+.xmonad/.stack-work/
+
+# X11 system files
+.Xauthority
+.xsession-errors
+.xsession-errors.old
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Downloads and personal directories
+Downloads/
+Documents/
+Pictures/
+Videos/
+Music/
+Desktop/
+
+# Steam and games
+.steam/
+.local/share/Steam/
+
+# Other application data
+.var/
+.pki/
+.dbus/
+.gconf/
+.mozilla/
