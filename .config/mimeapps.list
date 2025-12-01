@@ -1,7 +1,9 @@
 [Default Applications]
 image/jpeg=feh.desktop
 image/png=feh.desktop
+application/zip=userapp-unzip-0QADG3.desktop
 
 [Added Associations]
 image/jpeg=feh.desktop;
 image/png=feh.desktop;
+application/zip=userapp-unzip-0QADG3.desktop;

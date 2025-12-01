@@ -1,6 +1,6 @@
 Config {
    -- appearance
-     font =         "Noto Sans Mono CJK JP Bold 9"
+     font =         "Glasstown NBP 9"
    , bgColor =      "#1a1a1a"
    , fgColor =      "#cccccc"
    , position =     OnScreen 0 Top
@@ -8,7 +8,7 @@ Config {
    -- layout
    , sepChar =  "%"
    , alignSep = "}{"
-   , template = "%XMonadLog% }{ %cpu% | %memory% | %date% "
+   , template = " %XMonadLog% }{ %cpu% | %memory% | %date% "
 
    -- plugins
    , commands =

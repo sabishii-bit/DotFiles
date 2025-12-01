@@ -11,5 +11,6 @@ Output/Audio:application.name:Chromium={"volume":1.000000, "mute":false, "channe
 Output/Audio:application.name:Firefox={"volume":1.000000, "channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000]}
 Output/Audio:application.name:Mirror's\sEdge={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
 Output/Audio:application.name:MirrorsEdge.exe={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:application.name:RetroArch={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
 Output/Audio:application.name:WEBRTC\sVoiceEngine={"channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000}
 Output/Audio:media.role:Movie={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"], "mute":false}
