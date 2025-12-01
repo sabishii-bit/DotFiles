@@ -3,7 +3,7 @@ Config {
      font =         "Noto Sans Mono CJK JP Bold 9"
    , bgColor =      "#1a1a1a"
    , fgColor =      "#cccccc"
-   , position =     Top
+   , position =     OnScreen 1 Top
 
    -- layout
    , sepChar =  "%"
