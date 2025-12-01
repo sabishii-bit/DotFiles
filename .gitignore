@@ -26,6 +26,8 @@
 .steampid
 .steampath
 .pulse-cookie
+.nvm
+.pyenv
 
 # Browser data (large and private)
 .mozilla/

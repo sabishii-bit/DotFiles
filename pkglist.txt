@@ -6,6 +6,8 @@ base-devel
 bluez
 bluez-utils
 brave-bin
+clang
+cmake
 code
 discord
 dkms
@@ -17,6 +19,7 @@ ffmpegthumbnailer
 firefox
 flameshot
 gamescope
+gdb
 ghostty
 git
 gst-plugin-pipewire
@@ -31,13 +34,15 @@ linux-firmware
 linux-headers
 linux-zen
 linux-zen-headers
+lld
+llvm
 lvm2
 lxappearance
+ninja
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
-npm
 nvidia-dkms
 nvidia-settings
 obs-studio
@@ -53,8 +58,10 @@ rofi
 rsync
 sof-firmware
 steam
+tcl
 thunar
 thunar-archive-plugin
+tk
 ttf-symbola
 tumbler
 vim
