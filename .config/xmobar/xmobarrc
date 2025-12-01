@@ -12,7 +12,7 @@ Config {
 
    -- plugins
    , commands =
-        [ Run DateZone "%m月%d日 (%a) %H:%M" "ja_JP.UTF-8" "" "date" 10
+        [ Run DateZone "%m月%d日 (%A) %H:%M" "ja_JP.UTF-8" "" "date" 10
         , Run Cpu ["-t", "CPU: <total>%"] 10
         , Run Memory ["-t", "RAM: <usedratio>%"] 10
         , Run XMonadLog
