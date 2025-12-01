@@ -28,3 +28,11 @@ RESET="\[\e[0m\]"
 
 # Multiline shell prompt style using unicode box-drawing characters
 PS1="${CYAN}╭─(${BRIGHT_BLUE}\u@\h${CYAN})─(${BRIGHT_RED}\w${CYAN})${RESET}\n${CYAN}╰─${RESET}\$ "
+
+# Setup Python to use pyenv global
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+if command -v pyenv >/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi

@@ -1,4 +1,6 @@
+7zip
 ani-cli
+aws-cli
 base
 base-devel
 bluez
@@ -44,7 +46,11 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+pyenv
+qbittorrent
+rar
 rofi
+rsync
 sof-firmware
 steam
 thunar
@@ -52,6 +58,7 @@ thunar-archive-plugin
 ttf-symbola
 tumbler
 vim
+wget
 wine
 wireplumber
 xbindkeys
