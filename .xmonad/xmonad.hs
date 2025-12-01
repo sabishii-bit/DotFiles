@@ -111,7 +111,7 @@ fullscreenFloat w =
 -- Startup Hook
 myStartupHook :: X ()
 myStartupHook = do
-    spawn "xrandr --output HDMI-0 --primary --mode 1920x1080 --pos 0x0 --output DP-3 --mode 1920x1080 --pos 1920x0"
+    spawn "xrandr --output HDMI-0 --mode 1920x1080 --pos 0x0 --output DP-3 --primary --mode 1920x1080 --pos 1920x0"
     viewScreen def 1
     spawn "xdotool mousemove 2890 560"
     spawn "feh --bg-scale /home/lain/Pictures/Wallpaper-Right /home/lain/Pictures/Wallpaper-Left"
