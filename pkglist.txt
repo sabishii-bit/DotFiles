@@ -5,12 +5,15 @@ bluez
 bluez-utils
 brave-bin
 code
+discord
 dkms
 docker
 efibootmgr
 fastfetch
 feh
+ffmpegthumbnailer
 firefox
+flameshot
 gamescope
 ghostty
 git
@@ -35,6 +38,7 @@ noto-fonts-extra
 npm
 nvidia-dkms
 nvidia-settings
+obs-studio
 picom
 pipewire
 pipewire-alsa
@@ -46,7 +50,9 @@ steam
 thunar
 thunar-archive-plugin
 ttf-symbola
+tumbler
 vim
+wine
 wireplumber
 xbindkeys
 xdotool

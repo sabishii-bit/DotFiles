@@ -89,6 +89,7 @@ myKeys =
     , ((myModMask .|. shiftMask, xK_Return) , spawn "thunar")
     , ((myModMask, xK_t)                    , withFocused $ windows . W.sink)
     , ((myModMask, xK_f)                    , withFocused fullscreenFloat)
+    , ((myModMask .|. shiftMask, xK_s)      , spawn "flameshot gui")
     -- Workspace navigation with arrow keys (without shift = switch, with shift = move window)
     , ((myModMask, xK_Right)                , spawn "/home/lain/.local/bin/workspace-next.sh")
     , ((myModMask, xK_Left)                 , spawn "/home/lain/.local/bin/workspace-prev.sh")
