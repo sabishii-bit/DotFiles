@@ -87,3 +87,6 @@ Games/
 .dbus/
 .gconf/
 .mozilla/
+
+# Dump Data
+.zcompdump*

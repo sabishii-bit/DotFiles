@@ -1,0 +1,14 @@
+{"timestamp":115760,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","path_key":"clean","glean_timestamp":"1774832063840","loadfail_reason":"File doesn't exist."}}
+{"timestamp":115771,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","path_key":"recovery","glean_timestamp":"1774832063851","can_load":"true"}}
+{"timestamp":115771,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recovery","glean_timestamp":"1774832063851","loadfail_reason":"N/A","can_load":"true"}}
+{"timestamp":115771,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1774832063851","shutdown_ok":"true","shutdown_reason":"final-state-write-incomplete"}}
+{"timestamp":115887,"category":"network.dns","name":"trr_confirmation_context","extra":{"value":"2","captivePortal":"0","trigger":"uri-change","glean_timestamp":"1774832063968","results":"+","networkID":"","time":"129.471834","contextReason":"","attemptCount":"1"}}
+{"timestamp":115979,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1774832064059"}}
+{"timestamp":116129,"category":"nimbus_events","name":"startup_database_consistency","extra":{"store_active_count":"35","primary":"database","total_db_count":"35","total_store_count":"35","trigger":"startup","db_active_count":"35","glean_timestamp":"1774832064210"}}
+{"timestamp":116155,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1774832064235","value":"error_notfounderror"}}
+{"timestamp":116189,"category":"network.dns","name":"trr_confirmation_context","extra":{"contextReason":"pref-change","time":"22.516284","trigger":"pref-change","glean_timestamp":"1774832064270","captivePortal":"1","value":"2","attemptCount":"1","results":"+","networkID":""}}
+{"timestamp":116196,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1774832064276"}}
+{"timestamp":116231,"category":"doh","name":"state_enabled","extra":{"glean_timestamp":"1774832064312","value":"null"}}
+{"timestamp":116231,"category":"doh","name":"evaluate_v2_heuristics","extra":{"networkID":"","steeredProvider":"","evaluateReason":"startup","filtering":"","enterprise":"","glean_timestamp":"1774832064312","canaries":"","captiveState":"not_captive","platform":"","value":"enable_doh"}}
+{"timestamp":116245,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1774832064325"}}
+{"timestamp":116396,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1774832064476"}}
