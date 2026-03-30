@@ -1,0 +1,112 @@
+[
+    {
+        "output": "DP-2",
+        "layer": "top",
+        "position": "top",
+        "height": 32,
+        "spacing": 4,
+
+        "modules-left": ["hyprland/workspaces"],
+        "modules-center": ["hyprland/window"],
+        "modules-right": ["pulseaudio", "network", "cpu", "memory", "custom/date", "tray"],
+
+        "hyprland/workspaces": {
+            "format": "{icon}",
+            "on-click": "activate",
+            "sort-by-number": true,
+            "all-outputs": false,
+            "format-icons": {
+                "1": "一",
+                "2": "二",
+                "3": "三",
+                "4": "四",
+                "5": "五",
+                "6": "六",
+                "7": "七",
+                "8": "八",
+                "9": "九",
+                "10": "十"
+            }
+        },
+
+        "hyprland/window": {
+            "max-length": 60
+        },
+
+        "custom/date": {
+            "exec": "LC_TIME=ja_JP.utf8 date '+%Y年%m月%d日（%a）  %H:%M'",
+            "interval": 10,
+            "format": "{}"
+        },
+
+        "cpu": {
+            "format": "\uf4bc  {usage}%",
+            "interval": 2
+        },
+
+        "memory": {
+            "format": "\uf538 {used:0.1f}G",
+            "interval": 5
+        },
+
+        "network": {
+            "format-ethernet": "󰈀  {bandwidthUpBytes} 󰈀  {bandwidthDownBytes}",
+            "format-wifi": "  {signalStrength}%",
+            "format-disconnected": "󰌙  disconnected",
+            "tooltip-format": "{ifname}: {ipaddr}"
+        },
+
+        "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-muted": "󰝟 muted",
+            "format-icons": {
+                "default": ["󰕿", "󰖀", "󰕾"]
+            },
+            "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+        },
+
+        "tray": {
+            "spacing": 8
+        }
+    },
+    {
+        "output": "HDMI-A-1",
+        "layer": "top",
+        "position": "top",
+        "height": 32,
+        "spacing": 4,
+
+        "modules-left": ["hyprland/workspaces"],
+        "modules-center": ["hyprland/window"],
+        "modules-right": ["custom/date"],
+
+        "hyprland/workspaces": {
+            "format": "{icon}",
+            "on-click": "activate",
+            "sort-by-number": true,
+            "all-outputs": false,
+            "format-icons": {
+                "1": "一",
+                "2": "二",
+                "3": "三",
+                "4": "四",
+                "5": "五",
+                "6": "六",
+                "7": "七",
+                "8": "八",
+                "9": "九",
+                "10": "十"
+            }
+        },
+
+        "hyprland/window": {
+            "max-length": 60
+        },
+
+        "custom/date": {
+            "exec": "LC_TIME=ja_JP.utf8 date '+%Y年%m月%d日（%a）  %H:%M'",
+            "interval": 10,
+            "format": "{}"
+        }
+    }
+]

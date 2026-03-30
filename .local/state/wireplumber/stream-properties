@@ -1,5 +1,5 @@
 [stream-properties]
-Audio/Sink:node.name:auto_null={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
+Audio/Sink:node.name:auto_null={"volume":1.000000, "mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"]}
 Input/Audio:application.name:CapcomFightingCollection2.exe={"volume":1.000000, "mute":false, "channelMap":[], "channelVolumes":[1.000000, 1.000000]}
 Input/Audio:application.name:MirrorsEdge.exe={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
 Input/Audio:application.name:WEBRTC\sVoiceEngine={"channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000], "volume":1.000000}
