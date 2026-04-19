@@ -8,23 +8,5 @@
   "thumbnail_match_mode": 0,
   "sort_mode": 2,
   "items": [
-    {
-      "path": "/home/lain/Games/ROMs/N64/Ogre Battle 64 - Person of Lordly Caliber (USA) (Rev 1).z64",
-      "entry_slot": -1,
-      "label": "",
-      "core_path": "/usr/lib/libretro/mupen64plus_next_libretro.so",
-      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "/home/lain/Games/ROMs",
-      "entry_slot": -1,
-      "label": "",
-      "core_path": "/usr/lib/libretro/scummvm_libretro.so",
-      "core_name": "ScummVM",
-      "crc32": "",
-      "db_name": "ScummVM"
-    }
   ]
 }
